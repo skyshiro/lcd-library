@@ -1,4 +1,4 @@
-//blerg
+//blerg andy is going to die
 #include <msp430.h>
 
 void lcd_setup()
