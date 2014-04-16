@@ -109,6 +109,10 @@ void lcd_write_message(char *message)
 	{
 		for(i=0;i<strlen(message);i++)
 			{
+			if(i == (strlen(message)-15)) //this is where the magic happens baby
+			{
+				break;
+			}
 				//Change address back to bottom left 1
 				P2OUT = BIT2;
 				P1OUT = 0xC;
