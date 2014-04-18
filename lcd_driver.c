@@ -1,3 +1,4 @@
+//Material is copyright of Hodge Industries
 //blerg andy is going to die
 #include <msp430.h>
 
